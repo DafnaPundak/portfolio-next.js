@@ -1,28 +1,26 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Dafna's Portfolio</title>
+        <link rel="icon" href="/favicon-D.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Welcome to my portfolio!</h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+         <p>I am Dafna Pundak, a full-stack developer based in Tel Aviv.</p>
+         <p>Take a look on my recent projects</p>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://bank-app-dafna.herokuapp.com/" className={styles.card}>
+            <h3>D-bank &rarr;</h3>
+            <p>Managing your money transactions, track your balance and helpping you plan future expenses.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
@@ -56,10 +54,10 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
-  )
+  );
 }
