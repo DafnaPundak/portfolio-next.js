@@ -11,6 +11,9 @@ export default function Home() {
       <div id={styles.upperbox}>
         <h1 className={styles.title}>Dafna Pundak.</h1>
         <h className={styles.subtitle}>Fullstack Web Developer</h>
+        <a className={styles.cv} href="/Dafna_pundak_FullStack_developer.pdf">
+          <h4>CV</h4>
+        </a>
       </div>
       <main className={styles.main}>
         <p className={styles.description}>My recent projects:</p>
