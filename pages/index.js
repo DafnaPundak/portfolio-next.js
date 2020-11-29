@@ -5,17 +5,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Dafna's Portfolio</title>
+        <title>Dafna Pundak - portfolio</title>
         <link rel="icon" href="/favicon-D.ico" />
       </Head>
-
+      <div id={styles.upperbox}>
+        <h1 className={styles.title}>Dafna Pundak.</h1>
+        <h className={styles.subtitle}>Fullstack Web Developer</h>
+      </div>
       <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to my portfolio!</h1>
-
-        <p className={styles.description}>
-          <p>I am Dafna Pundak, a full-stack developer based in Tel Aviv.</p>
-          <p>Take a look on my recent projects:</p>
-        </p>
+        <p className={styles.description}>My recent projects:</p>
 
         <div className={styles.grid}>
           <a
@@ -39,16 +37,23 @@ export default function Home() {
           </a>
         </div>
       </main>
-
       <footer className={styles.footer}>
-        <a
-          href="https://github.com/DafnaPundak"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View on{" "}
-          <img src="/github-icon.ico" alt="github Logo" className="logo" />
+        <a href="https://github.com/DafnaPundak">
+          <img src="/github.ico" alt="github Logo" className={styles.logo} />
         </a>
+        <a href="https://www.linkedin.com/in/dafna-pundak-b7425219b/">
+          <img src="/linkedin.ico" className={styles.logo} />
+        </a>
+        <a href="https://www.facebook.com/dafna.mordechai/">
+          <img src="/facebook.ico" className={styles.logo} />
+        </a>
+        <a href="https://twitter.com/DafnaPundak">
+          <img src="/twitter.ico" className={styles.logo} />
+        </a>
+        <a href="https://www.instagram.com/dafnapundak/">
+          <img src="/instagram.ico" className={styles.logo} />
+        </a>
+        <span className={styles.copyright}>© Dafna Pundak 2020</span>
       </footer>
     </div>
   );
