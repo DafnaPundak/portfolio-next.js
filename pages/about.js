@@ -1,14 +1,9 @@
-import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Dafna Pundak - portfolio</title>
-        <link rel="icon" href="/favicon-D.ico" />
-      </Head>
       <div id={styles.upperbox}>
         <h1 className={styles.title}>Dafna Pundak.</h1>
         <h className={styles.subtitle}>Fullstack Web Developer</h>
@@ -20,27 +15,11 @@ export default function Home() {
         </Link>
       </div>
       <main className={styles.main}>
-        <div className={styles.grid}>
-          <a
-            href="https://bank-app-dafna.herokuapp.com/"
-            className={styles.card}
-          >
-            <h3>D-bank &rarr;</h3>
-            <p>
-              Manage your money transactions, track your balance and plan future
-              expenses.
-            </p>
-          </a>
-
-          <a
-            href="https://weather-app-dafna.herokuapp.com/"
-            className={styles.card}
-          >
-            <h3>Weather App &rarr;</h3>
-            <p>Check the weather in your next destination!</p>
-            <br />
-          </a>
-        </div>
+        <h1>Hello,</h1>
+        <h1>I am Dafna, a web developer, based in Tel Aviv.</h1>
+        <a className={styles.cv} href="/Dafna_pundak_FullStack_developer.pdf">
+          <h4>CV</h4>
+        </a>
       </main>
       <footer className={styles.footer}>
         <a href="https://github.com/DafnaPundak">
