@@ -13,8 +13,14 @@ export default function About() {
         <Link href="/">
           <a className={styles.upperboxlink}>Projects</a>
         </Link>
+        <div className={styles.aboutunderline}></div>
       </div>
       <main className={styles.main}>
+        <img
+          src="/images/profile.jpg"
+          className={`${styles.headerHomeImage}`}
+          alt={name}
+        />
         <h1>Hello,</h1>
         <h1>I am Dafna, a web developer, based in Tel Aviv.</h1>
         <a className={styles.cv} href="/Dafna_pundak_FullStack_developer.pdf">
