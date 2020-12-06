@@ -58,11 +58,14 @@
 
 .cvButton {
   background-color: rgb(252, 184, 157);
-  color: black;
-  border: 2px solid black;
-  border-radius: 8px;
   width: 60px;
   float: right;
+  flex-basis: 45%;
+  color: inherit;
+  text-decoration: none;
+  border: 2px solid #f5dada;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .title {

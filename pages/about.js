@@ -18,7 +18,7 @@ export default function About() {
       <main className={styles.main}>
         <a className={styles.cv} href="/Dafna_pundak_FullStack_developer.pdf">
           <button className={styles.cvButton}>
-            <h4>CV</h4>
+            <h3>CV</h3>
           </button>
         </a>
         <img
@@ -31,19 +31,19 @@ export default function About() {
       </main>
       <footer className={styles.footer}>
         <a href="https://github.com/DafnaPundak">
-          <img src="/github.ico" alt="github Logo" className={styles.logo} />
+          <img src="/icons/github.ico" alt="github Logo" className={styles.logo} />
         </a>
         <a href="https://www.linkedin.com/in/dafna-pundak-b7425219b/">
-          <img src="/linkedin.ico" className={styles.logo} />
+          <img src="/icons/linkedin.ico" className={styles.logo} />
         </a>
         <a href="https://www.facebook.com/dafna.mordechai/">
-          <img src="/facebook.ico" className={styles.logo} />
+          <img src="/icons/facebook.ico" className={styles.logo} />
         </a>
         <a href="https://twitter.com/DafnaPundak">
-          <img src="/twitter.ico" className={styles.logo} />
+          <img src="/icons/twitter.ico" className={styles.logo} />
         </a>
         <a href="https://www.instagram.com/dafnapundak/">
-          <img src="/instagram.ico" className={styles.logo} />
+          <img src="/icons/instagram.ico" className={styles.logo} />
         </a>
         <span className={styles.copyright}>© Dafna Pundak 2020</span>
       </footer>
