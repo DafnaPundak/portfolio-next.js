@@ -16,6 +16,11 @@ export default function About() {
         <div className={styles.aboutunderline}></div>
       </div>
       <main className={styles.main}>
+        <a className={styles.cv} href="/Dafna_pundak_FullStack_developer.pdf">
+          <button className={styles.cvButton}>
+            <h4>CV</h4>
+          </button>
+        </a>
         <img
           src="/images/profile.jpg"
           className={`${styles.headerHomeImage}`}
@@ -23,9 +28,6 @@ export default function About() {
         />
         <h1>Hello,</h1>
         <h1>I am Dafna, a web developer, based in Tel Aviv.</h1>
-        <a className={styles.cv} href="/Dafna_pundak_FullStack_developer.pdf">
-          <h4>CV</h4>
-        </a>
       </main>
       <footer className={styles.footer}>
         <a href="https://github.com/DafnaPundak">
