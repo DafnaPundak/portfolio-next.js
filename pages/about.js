@@ -19,7 +19,7 @@ export default function About() {
         <img
           src="/images/profile.jpg"
           className={`${styles.headerHomeImage}`}
-          alt={name}
+          // alt={name}
         />
         <h1>Hello,</h1>
         <h1>I am Dafna, a web developer, based in Tel Aviv.</h1>
