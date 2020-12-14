@@ -46,7 +46,7 @@ export default function Home() {
         <a href="https://github.com/DafnaPundak">
           <img src="/icons/github.ico" alt="github Logo" className={styles.logo} />
         </a>
-        <a href="https://www.linkedin.com/in/dafna-pundak-b7425219b/">
+        <a href="https://www.linkedin.com/in/dafna-pundak/">
           <img src="/icons/linkedin.ico" className={styles.logo} />
         </a>
         <a href="https://www.facebook.com/dafna.mordechai/">
