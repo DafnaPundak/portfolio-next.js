@@ -12,10 +12,7 @@ export default function Layout({ children, home }) {
       <div id={styles.upperbox}>
         <h1 className={styles.title}>Dafna Pundak.</h1>
         <h className={styles.subtitle}>Fullstack Web Developer</h>
-        <a
-          className={styles.upperboxlink}
-          href="/Dafna_pundak_FullStack_developer.pdf"
-        >
+        <a className={styles.upperboxlink} href="Dafna_Pundak_CV.pdf">
           CV
         </a>
         <Link href="/about">
