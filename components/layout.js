@@ -7,11 +7,11 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <title>Dafna Pundak - portfolio</title>
-        <link rel="icon" href="/favicon-D.ico" />
+        <link rel="icon" href="icons/favicon-D.ico" />
       </Head>
       <div id={styles.upperbox}>
         <h1 className={styles.title}>Dafna Pundak.</h1>
-        <h className={styles.subtitle}>Fullstack Web Developer</h>
+        <h className={styles.subtitle}>Full-Stack Web Developer</h>
         <a className={styles.upperboxlink} href="Dafna_Pundak_CV.pdf">
           CV
         </a>
