@@ -30,25 +30,28 @@ export default function Layout({ children, home }) {
       </div>
       <main>{children}</main>
       <footer className={styles.footer}>
-        <a href="https://github.com/DafnaPundak">
-          <img
-            src="/icons/github.ico"
-            alt="github Logo"
-            className={styles.logo}
-          />
+        <a href="https://github.com/DafnaPundak" className={styles.logo}>
+          <img src="/icons/github.svg" />
         </a>
-        <a href="https://www.linkedin.com/in/dafna-pundak/">
-          <img src="/icons/linkedin.ico" className={styles.logo} />
+        <a
+          href="https://www.linkedin.com/in/dafna-pundak/"
+          className={styles.logo}
+        >
+          <img src="/icons/Linkedin icon.svg" />
         </a>
-        <a href="https://www.facebook.com/dafna.mordechai/">
-          <img src="/icons/facebook.ico" className={styles.logo} />
+        <a
+          href="https://www.facebook.com/dafna.mordechai/"
+          className={styles.logo}
+        >
+          <img src="/icons/Facebook icon.svg" />
         </a>
-        <a href="https://twitter.com/DafnaPundak">
+
+        {/* <a href="https://twitter.com/DafnaPundak">
           <img src="/icons/twitter.ico" className={styles.logo} />
-        </a>
-        <a href="https://www.instagram.com/dafnapundak/">
-          <img src="/icons/instagram.ico" className={styles.logo} />
-        </a>
+        </a> */}
+        {/* <a href="https://www.instagram.com/dafnapundak/" className={styles.logo}>
+          <img src="/icons/Instegram icon.svg"  />
+        </a> */}
         <span className={styles.copyright}>© Dafna Pundak 2020</span>
       </footer>
     </div>
