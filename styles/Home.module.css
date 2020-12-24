@@ -1,4 +1,4 @@
-.main {
+/* .main { 
   width: 100%;
   padding: 5rem;
   flex: 1;
@@ -19,7 +19,7 @@
   /* opacity: 1; */
   /* display: inline-block; */
   /* align-items: right; */
-  /* -webkit-box-direction: normal; */
+  /* -webkit-box-direction: normal;
   float: right;
 }
 
@@ -31,13 +31,13 @@
 
 .title,
 .description {
-  /* text-align: left; */
+  /* text-align: left;
   align-items: left;
 }
 
 .subtitle {
   margin: 1px;
-  /* text-align: left; */
+  /* text-align: left;
   align-items: left;
 
   font-size: 1.25rem;
@@ -63,3 +63,4 @@
     flex-direction: column;
   }
 }
+ */

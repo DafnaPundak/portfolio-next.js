@@ -3,26 +3,30 @@ import Link from "next/link";
 import styles from "./layout.module.css";
 
 export default function Layout({ children, home }) {
-  console.log(home)
-  console.log(children)
+  console.log(home);
+  console.log(children);
   return (
-    <div className={styles.container}>
+    <div className={styles.body}>
       <Head>
         <title>Dafna Pundak - portfolio</title>
         <link rel="icon" href="icons/favicon-D.ico" />
       </Head>
-      <div id={styles.upperbox}>
-        <h1 className={styles.title}>Dafna Pundak.</h1>
-        <h className={styles.subtitle}>Full-Stack Web Developer</h>
-        <a className={styles.upperboxlink} href="Dafna_Pundak_CV.pdf">
-          CV
-        </a>
-        <Link href="/about">
-          <a className={styles.upperboxlink}>About</a>
-        </Link>
-        <Link href="/">
-          <a className={ home ? styles.logo : styles.upperboxlink}>Projects</a>
-        </Link>
+      <div className={`${styles.navbar} ${styles.wnav}`}>
+        <div className={styles.box}>
+          <div className={styles.title}>
+            <div className={styles.title1}>Dafna Pundak.</div>
+            <div className={styles.title2}>Full-Stack Web Developer</div>
+          </div>
+          <Link href="/">
+            <a className={home ? styles.logo : styles.upperboxlink}>Projects</a>
+          </Link>
+          <Link href="/about">
+            <a className={styles.upperboxlink}>About</a>
+          </Link>
+          <a className={styles.upperboxlink} href="Dafna_Pundak_CV.pdf">
+            CV
+          </a>
+        </div>
       </div>
       <main>{children}</main>
       <footer className={styles.footer}>
