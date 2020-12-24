@@ -19,9 +19,7 @@ export default function Layout({ children, home }) {
           </div>
           <div className={styles.links}>
             <Link href="/">
-              <a className={styles.upperboxlink}>
-                Projects
-              </a>
+              <a className={styles.upperboxlink}>Projects</a>
             </Link>
             <Link href="/about">
               <a className={styles.upperboxlink}>About</a>
@@ -34,22 +32,23 @@ export default function Layout({ children, home }) {
       </div>
       <main>{children}</main>
       <footer className={styles.footer}>
-        <a href="https://github.com/DafnaPundak" className={styles.logo}>
-          <img src="/icons/github.svg" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/dafna-pundak/"
-          className={styles.logo}
-        >
-          <img src="/icons/Linkedin icon.svg" />
-        </a>
-        <a
-          href="https://www.facebook.com/dafna.mordechai/"
-          className={styles.logo}
-        >
-          <img src="/icons/Facebook icon.svg" />
-        </a>
-
+        <div className={styles.icons}>
+          <a href="https://github.com/DafnaPundak" className={styles.logo}>
+            <img src="/icons/github.svg" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dafna-pundak/"
+            className={styles.logo}
+          >
+            <img src="/icons/Linkedin icon.svg" />
+          </a>
+          <a
+            href="https://www.facebook.com/dafna.mordechai/"
+            className={styles.logo}
+          >
+            <img src="/icons/Facebook icon.svg" />
+          </a>
+        </div>
         {/* <a href="https://twitter.com/DafnaPundak">
           <img src="/icons/twitter.ico" className={styles.logo} />
         </a> */}

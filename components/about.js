@@ -11,11 +11,13 @@ export default function About() {
       </Head>
       <div className={styles.section}>
         <img src="/images/profile.jpg" className={styles.image} />
-        <div className={styles.text1}>
-          Hello,
-          <br />I am Dafna, a web developer, based in Tel Aviv.
+        <div className={styles.text}>
+          <div className={styles.text1}>
+            Hello,
+            <br />I am Dafna, a full-stack web developer, based in Tel Aviv.
+          </div>
+          <div className={styles.text2}>{/* need to write about myself */}</div>
         </div>
-        <div className={styles.text2}></div>
       </div>
     </div>
   );
