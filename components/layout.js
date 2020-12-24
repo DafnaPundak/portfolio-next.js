@@ -17,15 +17,19 @@ export default function Layout({ children, home }) {
             <div className={styles.title1}>Dafna Pundak.</div>
             <div className={styles.title2}>Full-Stack Web Developer</div>
           </div>
-          <Link href="/">
-            <a className={home ? styles.logo : styles.upperboxlink}>Projects</a>
-          </Link>
-          <Link href="/about">
-            <a className={styles.upperboxlink}>About</a>
-          </Link>
-          <a className={styles.upperboxlink} href="Dafna_Pundak_CV.pdf">
-            CV
-          </a>
+          <div className={styles.links}>
+            <Link href="/">
+              <a className={styles.upperboxlink}>
+                Projects
+              </a>
+            </Link>
+            <Link href="/about">
+              <a className={styles.upperboxlink}>About</a>
+            </Link>
+            <a className={styles.upperboxlink} href="Dafna_Pundak_CV.pdf">
+              CV
+            </a>
+          </div>
         </div>
       </div>
       <main>{children}</main>

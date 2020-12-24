@@ -94,6 +94,32 @@
   flex: 1;
 }
 
+.links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+@media screen and (max-width: 479px) {
+  .links {
+    display: block;
+    overflow: visible;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
 .upperboxlink {
   position: static;
   display: inline-block;
@@ -139,6 +165,7 @@
   font-weight: 800;
   letter-spacing: 1px;
   margin-bottom: 5px;
+  margin-right: 80px;
 }
 
 .title2 {
@@ -215,7 +242,7 @@
 
 @media screen and (max-width: 479px) {
   .footer {
-    display: flex;
+    display: inline-block;
     align-items: stretch;
     flex: 1;
     width: 100%;
