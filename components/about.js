@@ -9,11 +9,14 @@ export default function About() {
         <title>Dafna Pundak - portfolio | About</title>
         <link rel="icon" href="icons/favicon-D.ico" />
       </Head>
-      {/* <main className={styles.main}> */}
-      <img src="/images/profile.jpg" className={`${styles.headerHomeImage}`} />
-      <h1>Hello,</h1>
-      <h1>I am Dafna, a web developer, based in Tel Aviv.</h1>
-      {/* </main> */}
+      <div className={styles.section}>
+        <img src="/images/profile.jpg" className={styles.image} />
+        <div className={styles.text1}>
+          Hello,
+          <br />I am Dafna, a web developer, based in Tel Aviv.
+        </div>
+        <div className={styles.text2}></div>
+      </div>
     </div>
   );
 }

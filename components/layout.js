@@ -3,6 +3,8 @@ import Link from "next/link";
 import styles from "./layout.module.css";
 
 export default function Layout({ children, home }) {
+  console.log(home)
+  console.log(children)
   return (
     <div className={styles.container}>
       <Head>
@@ -19,7 +21,7 @@ export default function Layout({ children, home }) {
           <a className={styles.upperboxlink}>About</a>
         </Link>
         <Link href="/">
-          <a className={styles.upperboxlink}>Projects</a>
+          <a className={ home ? styles.logo : styles.upperboxlink}>Projects</a>
         </Link>
       </div>
       <main>{children}</main>

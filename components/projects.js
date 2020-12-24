@@ -1,6 +1,8 @@
 import styles from "./projects.module.css";
 
 export default function Projects({ children }) {
+  let home = true
+  console.log(home)
   return (
     <main className={styles.main}>
       <div className={styles.grid}>
@@ -19,7 +21,7 @@ export default function Projects({ children }) {
           <p>Check the weather in your next destination!</p>
           <br />
         </a>
-        <div>{children}</div>
+        <div>{children, home}</div>
       </div>
     </main>
   );
